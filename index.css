@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+.nav {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  top: 0%;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 16px;
+  
+  /* background-color: rgba(0, 0, 0, 1); */
+  z-index: 99999999;
+}
+.nav a {
+  font-size: 20px;
+  /* font-weight: bold; */
+  cursor: pointer;
+}
+.navcta {
+  background-color: rgb(0, 0, 0);
+  padding: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 32px;
+  color: white;
+}
+.navcta:hover {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.6);
+}
+.sec1 {
+  display: flex;
+  flex-direction: row;
+  background-image: url("catalin-pop-p0cPqGud4mA-unsplash\ 1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  justify-content: flex-start;
+  align-items: center;
+}
+.cont {
+  /* background-color: brown; */
+  width: 50%;
+  height: 400px;
+  margin-left: 13%;
+  margin-bottom: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 32px;
+}
+.cont1 {
+  display: flex;
+  flex-direction: column;
+}
+.cont2 {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.cont2 p {
+  font-size: 20px;
+}
+.button span {
+  background-color: brown;
+  padding: 12px;
+  border-radius: 32px;
+  color: white;
+}
+.button span:hover {
+  padding: 14px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.6);
+}
+.sec2 {
+  padding-top: 128px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.sec2title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.imgdiv img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+.imgdiv img:hover {
+  scale: 102%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+.contentdiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.button2 span {
+  background-color: rgb(255, 255, 255);
+  padding: 12px;
+  border-radius: 32px;
+  color: rgb(0, 0, 0);
+  border: 2px solid black;
+}
+.button2 span:hover {
+  padding: 14px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+.cardcont {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  flex-direction: row;
+  margin-bottom: 128px;
+  gap: 64px;
+}
+
+.carddiv {
+  width: 100%;
+  margin-top: 128px;
+    margin-bottom: 128px;
+}
+.placename {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
