@@ -63,7 +63,7 @@ body {
     right: 0;
     width: 50%;
     border-radius: 32px;
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(255, 255, 255, 1);
     gap: 24px;
     padding: 16px 0;
     align-items: center;
@@ -147,7 +147,7 @@ body {
   object-fit: cover;
   border-radius: 16px;
 }
-.imgdiv img:hover {
+.imgdiv img:hover { 
   scale: 102%;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
 }
